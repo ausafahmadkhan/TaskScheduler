@@ -18,8 +18,8 @@
 
 ### ExecutorService
     schedule(Job job, Long time);
-    scheduleAtFixedInterval(Job job, Long interval);
-    scheduleAtFixedIntervalWithDelay(Job job, Long interval, Long delay);
+    scheduleAtFixedInterval(Job job, Long fixedRate);
+    scheduleAtFixedIntervalWithDelay(Job job, Long interval, Long fixedDelay);
 
 ### TaskExecutor
     execute();
